@@ -1,5 +1,5 @@
-const getTheTitles = function() {
-
+const getTheTitles = function(argument) {
+	return argument.map(book => book.title);
 };
 
 // Do not edit below this line
